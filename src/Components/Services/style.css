@@ -1,0 +1,13 @@
+.serviceImg {
+  color: rgba(72, 27, 174, 1) !important;
+}
+
+#services {
+  background-color: #00a8ff;
+  color: white !important;
+  padding-top: 20vh;
+}
+
+.text-muted {
+  color: white !important;
+}

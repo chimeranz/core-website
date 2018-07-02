@@ -1,0 +1,65 @@
+.contactUs {
+  background-color: rgb(34, 47, 62);
+  background-image: url("../../Assets/img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: static;
+  padding: 100px 0px;
+}
+
+.shrink {
+  width: 80%;
+}
+
+section#contactUs .form-group {
+  margin-bottom: 25px;
+}
+
+section#contactUs .form-group input,
+section#contactUs .form-group textarea {
+  padding: 20px;
+}
+
+#contactUs .form-control {
+  opacity: 0.6;
+  font-size: 1.5em;
+}
+
+section#contactUs .form-group input.form-control {
+  height: auto;
+}
+
+section#contactUs .form-group textarea.form-control {
+  height: 248px;
+}
+
+section#contactUs .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+
+section#contactUs ::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section#contactUs :-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  /* Firefox 18- */
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section#contactUs ::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  /* Firefox 19+ */
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section#contactUs :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
