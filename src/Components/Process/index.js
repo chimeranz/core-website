@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FontAwesome from "react-fontawesome";
 import "./style.css";
 
 class Process extends Component {
@@ -14,7 +15,7 @@ class Process extends Component {
             </header>
 
             <div className="row">
-              <div className="container-fluid">
+              <div className="container shrink">
                 <ul className="timeline timeline-horizontal">
 
                   <li className="timeline-item">

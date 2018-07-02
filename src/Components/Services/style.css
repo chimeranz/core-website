@@ -11,3 +11,8 @@
 .text-muted {
   color: white !important;
 }
+
+.fontAwesome {
+  font-size: 7rem;
+  margin-bottom: 20px;
+}

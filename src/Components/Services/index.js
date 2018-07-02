@@ -20,25 +20,28 @@ class Services extends Component {
                 <div className="row">
                   <div className="col-lg-4">
                     <div className="feature-item">
-                      <i className="icon-screen-smartphone text-primary"></i>
+                      <FontAwesome className="fontAwesome" name='swimmer' />
                       <h3>Streamline process</h3>
-                      <p className="text-muted">Our process makes it easier and cheaper for you to get the website you want</p>
+                      <br />
+                      <p className="">Our process makes it easier and cheaper for you to get the website you want</p>
                     </div>
                   </div>
 
                   <div className="col-lg-4">
                     <div className="feature-item">
-                      <i className="icon-camera text-primary"></i>
+                      <FontAwesome className="fontAwesome text-center" name='pen-nib' />
                       <h3>Innovative Design</h3>
-                      <p className="text-muted">We design for each client differently based on their unique needs and wants</p>
+                      <br />
+                      <p className="">We design for each client differently based on their unique needs and wants</p>
                     </div>
                   </div>
 
                   <div className="col-lg-4">
                     <div className="feature-item">
-                      <i className="icon-camera text-primary"></i>
+                      <FontAwesome className="fontAwesome text-center" name='rocket' />
                       <h3>Speedy Development</h3>
-                      <p className="text-muted">Our small team allows us to complete projects quickly and make changes based of your needs</p>
+                      <br />
+                      <p className="">Our small team allows us to complete projects quickly and make changes based off your needs</p>
                     </div>
                   </div>
                 </div>
