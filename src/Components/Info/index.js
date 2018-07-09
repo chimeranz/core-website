@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Button } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
 import "./style.css";
 
 class Info extends Component {
@@ -13,18 +13,26 @@ class Info extends Component {
               <h2>What we do differently?</h2>
             </header>
 
-            <div className="section__content shrink center">
-              <p>
-                We work to your vision, and as a valued Client, your
-                conceptualisation will be transformed through our design services.
-                We are also happy to create a website based on a rough outline,
-                and collaborate regularly with you to realise your online site.
+            <Container className="section__content shrink alignLeft">
+              <Row>
 
-                Choose us for an affordable, modern and relevant website, made on
-                cross platform technologies that will enable great accessibility
-                on any device, catering to your diverse consumer base.
-              </p>
-            </div>
+                <Col sm="0" md="1"/>
+                <Col className="" sm="12" md="10" >
+                  <p>
+                    We work to your vision, and as a valued Client, your
+                    conceptualisation will be transformed through our design services.
+                    We are also happy to create a website based on a rough outline,
+                    and collaborate regularly with you to realise your online site.
+                    <hr />
+                    Choose us for an affordable, modern and relevant website, made on
+                    cross platform technologies that will enable great accessibility
+                    on any device, catering to your diverse consumer base.
+                  </p>
+                </Col>
+                <Col sm="0" md="1"/>
+              </Row>
+            </Container>
+
           </div>
         </div>
       </section>

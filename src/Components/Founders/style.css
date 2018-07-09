@@ -355,11 +355,11 @@ body{
 	margin-top: 1rem;
 }
 
-.section__content{
+/* .section__content{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
-}
+} */
 
 @media screen and (min-width: 641px){
 

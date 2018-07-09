@@ -5,7 +5,11 @@
 #services {
   background-color: #00a8ff;
   color: white !important;
-  padding-top: 20vh;
+  padding-top: 15vh;
+}
+
+#services .section__header {
+  margin-bottom: 0px;
 }
 
 .text-muted {
@@ -15,4 +19,8 @@
 .fontAwesome {
   font-size: 7rem;
   margin-bottom: 20px;
+}
+
+.alignLeft {
+  text-align: left;
 }

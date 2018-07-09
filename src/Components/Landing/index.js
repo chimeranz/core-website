@@ -8,7 +8,7 @@ class Landing extends Component {
 
   render() {
     return (
-      <header className="masthead align-items-center justify-content-center">
+      <header className="masthead align-items-center justify-content-center" id="home">
         <Container className="banner">
           <Row className="align-items-center justify-content-center">
             {/* <Col md="12"> */}

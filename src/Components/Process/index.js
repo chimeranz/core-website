@@ -10,7 +10,7 @@ class Process extends Component {
         <div className="main-container shrink">
           <div className="section-heading ">
             <header className="section__header">
-              <h2>4 Stage Process</h2>
+              <h2>How we create solutions</h2>
               <p className="section__hint">Our development structure</p>
             </header>
 

@@ -60,7 +60,7 @@ class ContactUs extends Component {
       return(
         <div>
           <h3 className="text-center">We have recieved your enquiry and will be in contact as soon as possible!</h3>
-          <br />  
+          <br />
           { this.renderButton() }
         </div>
       );
@@ -112,7 +112,7 @@ class ContactUs extends Component {
               <p className="section__hint">Get in touch with us</p>
             </header>
 
-            <div className="section__content row">
+            <div className="section__content center">
               {
                 this.renderForm()
               }

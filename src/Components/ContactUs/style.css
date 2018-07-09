@@ -11,6 +11,10 @@
   width: 80%;
 }
 
+#contactUs .section__content {
+  width: 80%;
+}
+
 section#contactUs .form-group {
   margin-bottom: 25px;
 }

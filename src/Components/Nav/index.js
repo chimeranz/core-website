@@ -37,14 +37,15 @@ class Nav extends Component {
                         </AnchorLink>
                       </li>
                     );
+                  }else if(item.ignore == null || item.ignore != true) {
+                    return(
+                      <li className="nav-item">
+                        <AnchorLink className="no-margin" href={`#${item.ref}`}>
+                          <a className="nav-link js-scroll-trigger" href={`#${item.ref}`}>{item.title}</a>
+                        </AnchorLink>
+                      </li>
+                    );
                   }
-                  return(
-                    <li className="nav-item">
-                      <AnchorLink className="no-margin" href={`#${item.ref}`}>
-                        <a className="nav-link js-scroll-trigger" href={`#${item.ref}`}>{item.title}</a>
-                      </AnchorLink>
-                    </li>
-                  );
                 })
               }
 
