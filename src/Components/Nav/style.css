@@ -21,6 +21,24 @@ a {
   font-size: 18px !important;
 }
 
+.scrolled {
+  background-color: white !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.scrolled #navbarResponsive li a {
+  /* color: white !important; */
+}
+
+.scrolled #navbarResponsive li a:hover {
+  text-decoration: none !important;
+  /* border-bottom: solid 5px var(--primary-purple) !important; */
+  color: orange !important;
+  font-size: 18px !important;
+}
+
+
 .navbar-brand {
   font-family: 'Josefin Sans', sans-serif !important;
   letter-spacing: 10px;

@@ -2,9 +2,16 @@ import React, { Component } from 'react';
 import { AnimatedBg, Transition } from 'scroll-background';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Links from "../../Constants/Links";
+import $ from 'jquery';
 import "./style.css";
 
 class Nav extends Component {
+
+  componentDidMount() {
+    $(window).scroll(function(){
+    	$('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+    });
+  }
 
   render() {
     return (
