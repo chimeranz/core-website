@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Nav from "../../Components/Nav";
+import Nava from "../../Components/Nav";
 import Info from "../../Components/Info";
 import NavDots from "../../Components/NavDots";
 import Landing from "../../Components/Landing";
@@ -22,7 +22,7 @@ class App extends Component {
 
         <div id="page-top">
           <Row>
-            <Nav />
+            <Nava />
           </Row>
 
           <div className="bannerImg">

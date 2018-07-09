@@ -77,3 +77,35 @@ a {
 .container {
   /* width: 1000px !important; */
 }
+
+@media (max-width: 990px) {
+  .navbar-nav {
+    float: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-item-box {
+    background-color: white !important;
+    border-radius: 0px;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+  }
+
+  .nav-item-box a {
+    color: var(--bannertext-color) !important;
+  }
+
+  .nav-item-box:hover {
+    background-color: transparent !important;
+  }
+
+  .nav-item {
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 2px var(--bannertext-color) solid;
+    width: 100%;
+  }
+}
