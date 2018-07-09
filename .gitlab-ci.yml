@@ -1,4 +1,4 @@
-image: npm:5.6.0 # can be upgraded, depending on your node version used
+image: node:6.11.0 # can be upgraded, depending on your node version used
 
 cache:
   paths:
