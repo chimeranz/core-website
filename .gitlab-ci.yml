@@ -1,9 +1,5 @@
 image: node:6.11.0 # can be upgraded, depending on your node version used
 
-cache:
-  paths:
-    - node_modules/
-
 pages:
   stage: deploy
   script:
