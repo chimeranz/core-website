@@ -1,7 +1,7 @@
 {
   "name": "chimera_core",
   "version": "0.1.0",
-  "homepage": " https://chimeranz.github.io/core-website",
+  "homepage": "https://chimeranz.github.io/core-website",
   "private": true,
   "engines": {
     "npm": ">=5.6.0"
@@ -25,6 +25,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "mv build/* ./* && rmdir build && gh-pages -d build "
   }
 }
