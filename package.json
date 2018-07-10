@@ -1,7 +1,7 @@
 {
   "name": "chimera_core",
   "version": "0.1.0",
-  "homepage": "http://chimeranz.github.io/core-website",
+  "homepage": " https://chimeranz.github.io/core-website",
   "private": true,
   "engines": {
     "npm": ">=5.6.0"
@@ -16,7 +16,8 @@
     "react-scripts": "1.1.4",
     "react-spinners": "^0.3.2",
     "reactstrap": "^6.1.0",
-    "scroll-background": "^1.0.5"
+    "scroll-background": "^1.0.5",
+    "gh-pages": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,8 +26,5 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "devDependencies": {
-    "gh-pages": "^1.2.0"
   }
 }
