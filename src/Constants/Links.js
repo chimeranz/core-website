@@ -1,7 +1,9 @@
+// The order here matters
+
 let links = [
   { title: "Home", ref: "home", ignore: true },
-  { title: "The Team", ref: "theTeam"},
   { title: "Services", ref: "services" },
+  { title: "The Team", ref: "theTeam"},
   { title: "Our works", ref: "portfolio"},
   { title: "Contact Us", ref: "contactUs" }
 ]

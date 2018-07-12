@@ -17,7 +17,7 @@ class Info extends Component {
               <Row>
 
                 <Col sm="0" md="1"/>
-                <Col className="" sm="12" md="10" >
+                <Col sm="12" md="10" >
                   <p>
                     We work to your vision, and as a valued Client, your
                     conceptualisation will be transformed through our design services.

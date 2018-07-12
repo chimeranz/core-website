@@ -1,5 +1,6 @@
 #process {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+  height: 100% !important;
 }
 
 /* Hide on smaller screens cause the timeline isnt responsive */

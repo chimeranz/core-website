@@ -76,19 +76,24 @@ class NavDots extends Component {
             var divPos = $(`#${theID}`).offset().top;
             var divHeight = $(`#${theID}`).height() * 2 - 100;
 
-            if (windowPos >= divPos - 100 && windowPos < (divPos + divHeight)) {
-              $("li[title='" + theTitle + "']").addClass("active");
-            } else {
-              $("li[title='" + theTitle + "']").removeClass("active");
+            if(windowPos > 100 && i > 0 && $("li[title='" + aArray[i].title + "']").hasClass("active")){
+              $("li[title='" + aArray[i - 1].title + "']").removeClass("active");
+            }else {
+              if (windowPos >= divPos - 100 && windowPos < (divPos + divHeight)) {
+                $("li[title='" + theTitle + "']").addClass("active");
+              } else {
+                $("li[title='" + theTitle + "']").removeClass("active");
+              }
+
+              if($("li[title='" + aArray[1].title + "']").hasClass("active")){
+                $("li[title='Home']").removeClass("active");
+              }
+
+              if($("li[title='" + aArray[aArray.length - 1].title + "']").hasClass("active")){
+                $("li[title='" + aArray[aArray.length - 2].title + "']").removeClass("active");
+              }
             }
 
-            if($("li[title='" + aArray[1].title + "']").hasClass("active")){
-              $("li[title='Home']").removeClass("active");
-            }
-
-            if($("li[title='" + aArray[aArray.length - 1].title + "']").hasClass("active")){
-              $("li[title='" + aArray[aArray.length - 2].title + "']").removeClass("active");
-            }
           }
 
         });

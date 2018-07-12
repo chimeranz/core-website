@@ -15,7 +15,7 @@
 
 .banner-logo {
   /* background-color: white; */
-  max-width: 40%;
+  max-width: 30%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -23,9 +23,15 @@
 .bannertext {
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 12em;
+  font-size: 8em;
   font-weight: bold;
   color: var(--bannertext-color);
+}
+
+@media (min-width: 1500px) {
+  .bannertext {
+    font-size: 10em;
+  }
 }
 
 .banner-subtext {
@@ -52,7 +58,6 @@
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
-  border-radius: 0;
 }
 
 .arrowContainer{
@@ -80,19 +85,33 @@
   width: 55px;
   height: 55px;
   /* TODO change this for banner height, originally 15vh */
-  margin-top: 10vh;
+  margin-top: 5vmin;
   line-height: 0 !important;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   color: white;
-  border: 2px solid var(--bannertext-color) !important;
+  border: 2px solid #8e44ad !important;
   border-radius: 100% !important;
-  background: var(--bannertext-color);
+  background: #8e44ad;
 }
 
 .btn-circle:focus, .btn-circle:hover {
   /* border-width: 3px; */
-  border-color: var(--bannertext-color);
-  background: transparent;
+  border-color: var(--teal) !important;
+  background: var(--teal);
+  color: white;
+}
+
+@media (min-height: 700px) {
+
+  .btn-circle {
+    font-size: 45px !important;
+    margin-top: 10vmin;
+  }
+
+  .banner {
+    margin-top: 2vh;
+  }
+
 }

@@ -15,7 +15,7 @@ class Process extends Component {
             </header>
 
             <div className="row">
-              <div className="container shrink">
+              <div className="container">
                 <ul className="timeline timeline-horizontal">
 
                   <li className="timeline-item">

@@ -25,6 +25,9 @@ class Portfolio extends Component {
                 </div>
                 <img className="img-fluid" src={Cabin} alt="" />
               </a>
+              <div className="portfolio-text">
+                <h2 className="section__hint">Orion Invoices</h2>
+              </div>
             </Col>
 
             <Col className="text-align-center" md="4" lg="4">
@@ -37,7 +40,7 @@ class Portfolio extends Component {
                 <img className="img-fluid" src={Cabin} alt="" />
               </a>
               <div className="portfolio-text">
-                <h2 className="section__hint">Orion Technology</h2>
+                <h2 className="section__hint">krishnakapadia.com</h2>
               </div>
             </Col>
 
@@ -50,11 +53,14 @@ class Portfolio extends Component {
                 </div>
                 <img className="img-fluid" src={Cabin} alt="" />
               </a>
+              <div className="portfolio-text">
+                <h2 className="section__hint">Amba screen printers</h2>
+              </div>
             </Col>
 
           </Row>
 
-          <hr />
+          {/* <hr />
 
           <Row>
             <Col className="text-align-center" md="4" lg="4">
@@ -89,7 +95,7 @@ class Portfolio extends Component {
                 <img className="img-fluid" src={Cabin} alt="" />
               </a>
             </Col>
-          </Row>
+          </Row> */}
         </div>
       </section>
     );

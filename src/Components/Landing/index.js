@@ -24,8 +24,8 @@ class Landing extends Component {
         </Container>
 
         <div className="arrowContainer">
-          <AnchorLink href='#theTeam'>
-            <a href="#theTeam" className="btn btn-circle js-scroll-trigger">
+          <AnchorLink href='#services'>
+            <a href="#services" className="btn btn-circle js-scroll-trigger">
               {/* <div className="arrowText">
                 Meet the founders
               </div> */}

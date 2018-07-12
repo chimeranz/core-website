@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '../../Assets/bootstrap/css/bootstrap.min.css';
+import '../../Assets/css/new-age.css';
 import Nava from "../../Components/Nav";
 import Info from "../../Components/Info";
 import NavDots from "../../Components/NavDots";
@@ -21,25 +23,26 @@ class App extends Component {
         <NavDots />
 
         <div id="page-top">
-          <Row>
+          {/* <Row> */}
             <Nava />
-          </Row>
+          {/* </Row> */}
 
           <div className="bannerImg">
             {/* Landing page section */}
             <Landing />
           </div>
+          {/* Services section */}
+          <Services />
+
           {/* Meet the founders section */}
           <Founders />
 
           {/* More information, who we are, what we do differently */}
           <Info />
-          {/* Services section */}
-          <Services />
-          {/* Process timeline section */}
-          <Process />
           {/* Portfolio section */}
           <Portfolio />
+          {/* Process timeline section */}
+          <Process />
           {/* Contact Us section */}
           <ContactUs />
 
