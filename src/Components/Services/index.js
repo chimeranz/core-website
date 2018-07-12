@@ -61,7 +61,7 @@ class Services extends Component {
 
           <Container className="section__content">
             <Row className="feature-list">
-              <Col className="margin-bottom" lg="4">
+              <Col className="margin-bottom" md="4">
                 <div className="feature-item">
                   <div className="item-icon-container">
                     <img className="item-icon" src={swimmerIcon} alt="Swimmer image" />
@@ -72,7 +72,7 @@ class Services extends Component {
                 </div>
               </Col>
 
-              <Col className="margin-bottom" lg="4">
+              <Col className="margin-bottom" md="4">
                 <div className="feature-item">
                   <div className="item-icon-container">
                     <img className="item-icon" src={penIcon} alt="Pen image" />
@@ -83,7 +83,7 @@ class Services extends Component {
                 </div>
               </Col>
 
-              <Col lg="4">
+              <Col md="4">
                 <div className="feature-item">
                   <div className="item-icon-container">
                     <img className="item-icon" src={rocketIcon} alt="Rocket image" />
