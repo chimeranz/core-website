@@ -17,7 +17,7 @@ class Portfolio extends Component {
 
           <Row>
             <Col className="text-align-center" md="4" lg="4">
-              <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <a className="portfolio-item d-block mx-auto" href="http://orioninvoices.x10host.com/">
                 <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                   <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
                     <i className="fa fa-search-plus fa-3x"></i>
@@ -31,7 +31,7 @@ class Portfolio extends Component {
             </Col>
 
             <Col className="text-align-center" md="4" lg="4">
-              <a className="portfolio-item d-block mx-auto text-align-center" href="#portfolio-modal-1">
+              <a className="portfolio-item d-block mx-auto text-align-center" href="http://www.krishnakapadia.com/">
                 <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                   <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
                     <i className="fa fa-search-plus fa-3x"></i>
@@ -45,7 +45,7 @@ class Portfolio extends Component {
             </Col>
 
             <Col className="text-align-center" md="4" lg="4">
-              <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <a className="portfolio-item d-block mx-auto" href="http://krishnakapadia.com/ambaSite/index.php#">
                 <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
                   <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
                     <i className="fa fa-search-plus fa-3x"></i>
