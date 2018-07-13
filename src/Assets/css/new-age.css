@@ -1,7 +1,7 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
 }
 
 body {
@@ -56,7 +56,7 @@ section h2 {
 }
 
 #mainNav {
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: white !important;
   background-color: white;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;

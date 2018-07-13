@@ -15,11 +15,11 @@ class Landing extends Component {
               <img className="banner-logo" src={ChimeraLogo} alt="Chimera Logo" />
             {/* </Col> */}
 
-            <Row>
+            {/* <Row> */}
               <h1 className="bannertext text-align-center">Chimera<br />
                 <p className="banner-subtext">Web development</p>
                 <p><small>We help businesses save time through software</small></p></h1>
-            </Row>
+            {/* </Row> */}
           </Row>
         </Container>
 

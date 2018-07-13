@@ -21,34 +21,29 @@ class App extends Component {
     return (
       <div>
         <NavDots />
+        <Nava />
 
-        <div id="page-top">
-          {/* <Row> */}
-            <Nava />
-          {/* </Row> */}
-
-          <div className="bannerImg">
-            {/* Landing page section */}
-            <Landing />
-          </div>
-          {/* Services section */}
-          <Services />
-
-          {/* Meet the founders section */}
-          <Founders />
-
-          {/* More information, who we are, what we do differently */}
-          <Info />
-          {/* Portfolio section */}
-          <Portfolio />
-          {/* Process timeline section */}
-          <Process />
-          {/* Contact Us section */}
-          <ContactUs />
-
-          {/* Footer */}
-          <Footer />
+        <div className="bannerImg" id="page-top">
+          {/* Landing page section */}
+          <Landing />
         </div>
+        {/* Services section */}
+        <Services />
+
+        {/* Meet the founders section */}
+        <Founders />
+
+        {/* More information, who we are, what we do differently */}
+        <Info />
+        {/* Portfolio section */}
+        <Portfolio />
+        {/* Process timeline section */}
+        <Process />
+        {/* Contact Us section */}
+        <ContactUs />
+
+        {/* Footer */}
+        <Footer />
       </div>
 
     );
