@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Row, Col } from "reactstrap";
 import krishnaFoundersPhoto from "../../Assets/img/krishnaFoundersPhoto.png";
 import githubIcon from "../../Assets/img/github.svg";
 import linkedinIcon from "../../Assets/img/linkedin.svg";
@@ -19,8 +20,8 @@ class Founders extends Component {
             </span>
           </header>
 
-          <div className="section__content teamy-team">
-            <article className="teamy teamy_style1 teamy_mask-circle">
+          <Row className="section__content teamy-team">
+            <Col className="teamy teamy_style1 teamy_mask-circle">
               <div className="teamy__layout">
                 <div className="teamy__preview">
                   <img src={krishnaFoundersPhoto} className="teamy__avatar" alt="Krishna Kapadia Founders photo" />
@@ -44,9 +45,9 @@ class Founders extends Component {
                 <h3 className="teamy__name">Krishna Kapadia</h3>
                 <span className="teamy__post">Founder & Engineer</span>
               </div>
-            </article>
+            </Col>
 
-            <article className="teamy teamy_style1 teamy_mask-circle teamy_zoom-photo">
+            <Col className="teamy teamy_style1 teamy_mask-circle teamy_zoom-photo">
               <div className="teamy__layout">
                 <div className="teamy__preview">
                   <img src={krishnaFoundersPhoto} className="teamy__avatar" alt="The demo photo" />
@@ -72,7 +73,7 @@ class Founders extends Component {
                 <h3 className="teamy__name">Allister Grange</h3>
                 <span className="teamy__post">Founder & Engineer</span>
               </div>
-            </article>
+            </Col>
 
             {/* <article className="teamy teamy_style1 teamy_mask-circle">
               <div className="teamy__layout">
@@ -185,7 +186,7 @@ class Founders extends Component {
               </div>
             </article> */}
 
-          </div>
+          </Row>
         </div>
       </section>
     );
